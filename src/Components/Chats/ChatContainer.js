@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import SideBar from './SideBar'
 import { COMMUNITY_CHAT, MESSAGE_SENT, MESSAGE_RECEIVED, TYPING } from '../../Events'
-import ChatHeading from './CHatheading'
-import Messages from '../messages/Messages'
-import MessageInput from '../messages/MessageInput'
+import ChatHeading from './ChatHeading'
+import Messages from '../Messages/Messages'
+import MessageInput from '../Messages/MessageInput'
 
 
-export defualt class ChatContainer extends Component {
+export default class ChatContainer extends Component {
     constructor(props) {
         super(props)
 
@@ -135,3 +135,5 @@ export defualt class ChatContainer extends Component {
     }
 
 }
+
+// export default ChatContainer
